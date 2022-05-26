@@ -14,9 +14,9 @@ function App() {
   }, []);
 
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <div>
+      <header>
+        <h2>Reactivities</h2>
         <ul>
           {activities.map((activity: any) => (
             <li key={activity.id}>{activity.title}</li>
